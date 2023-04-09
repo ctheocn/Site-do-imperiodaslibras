@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+header img{
+    object-fit: cover;
+    object-position:20%;
+    border: 2px white solid;
+   width: 20%;
+   height: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(139, 139, 21);
+}
+a:hover{
+    color: rgb(22, 51, 51);
+}
+header{
+flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header nav{
+    flex-direction:row;
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+}
