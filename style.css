@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    position:absolute;
+    position:static;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -24,15 +26,52 @@ a{
 a:hover{
     color: rgb(22, 51, 51);
 }
+nav a{
+    margin-bottom: 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
 header{
 flex-direction: column;
 display: flex;
 justify-content: center;
 align-items: center;
+border-bottom: 2px solid white;
 }
 header nav{
     flex-direction:row;
  display: flex;
  justify-content: center;
  gap: 20px;
+}
+footer{
+    position: fixed;
+    background-color: rgb(53, 53, 41);
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid white;
+    text-transform: uppercase;
+      font-weight: bold;
+
+}
+.container{
+    padding: 13px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.social-media {
+    display: flex;
+    gap: 20px;
+}
+.social-media a{
+    color: yellow;
+    font-size: 20px;
+}
+.social-media a:hover{
+    color: rgb(0, 191, 255);
+}
+.social-media i{
+    transition: color 0.4s ease-in-out;
 }
